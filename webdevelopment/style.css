@@ -48,3 +48,12 @@ p {
   padding: 2px;
   font-family: 'Lato', sans-serif;
 }
+
+.flyer {
+  border: 2px solid black;
+  width: fit-content;
+  padding: 15px;
+  margin: 5px;
+  background-color: #FFB612;
+  border-radius: 20px;
+}
