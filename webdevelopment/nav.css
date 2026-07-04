@@ -1,6 +1,20 @@
-.bar {
+.bar ul{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+  background-color: #FFB612;
+}
+
+li {
+  padding: 5px;
+  font-size: large;
+}
+
+ul {
+  border: 3px solid black;
+  border-color: #0F204B;
 }
