@@ -16,10 +16,37 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+     <!--CSS style sheet link
+    <link rel="stylesheet" type="text/css" href="https://nicholasmwilson01-lab.github.io/webdevelopment/style.css">
+    <link rel="stylesheet" type="text/css" href="https://nicholasmwilson01-lab.github.io/webdevelopment/nav.css">
+    -->
 </head>
 
 <!--Header for logo/title-->
 <header>
+    <!--Nav Bar, styled in nav.css-->
+    <nav class="bar">
+        <ul>
+            <img src="https://nicholasmwilson01-lab.github.io./webdevelopment/logoresized.PNG" alt="Main Logo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Resources</a></li>
+            <li>
+                <a href="">Contact</a>
+                <!--Drop down styled in nav.css-->
+                <ul class="dropdown">
+                    <div class="dlinks">
+                        <li><a href="">Donation</a></li>
+                        <br>
+                        <li><a href="">Inquiry</a></li>
+                    </div>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
 </header>
 
 <!--Body for majority of text-->
@@ -34,6 +61,7 @@
         <hr>
         <p>Welcome to the Anchorage Herald Newspaper Archives! Below are some of our available services.</p>
         <!--Switch link to actual services once their pages are created. Move about link into navigation bar-->
+        <!--Add skyline image into hero section: https://unsplash.com/photos/a-view-of-a-city-with-mountains-in-the-background-8UCTwY4mrVA-->
         <button>
             <a href="https://nicholasmwilson01-lab.github.io/webdevelopment/about.html">About</a>
         </button>
@@ -55,5 +83,6 @@
 
 <!--Footer for widgets/links-->
 <footer>
-    <p>Name: Nick Wilson</p><br><p>Date: 6/18/26</p>
+    <p>Name: Nick Wilson</p>
+    <p>Date: 6/18/26</p>
 </footer>
