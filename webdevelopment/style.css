@@ -101,3 +101,24 @@ footer {
   margin-top: 50px;
 }
 
+.imgbox {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #FFB612;
+  border-radius: 20px;
+  background-color: #FFB612;
+}
+
+.videoplayer {
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+@media print {
+
+}
