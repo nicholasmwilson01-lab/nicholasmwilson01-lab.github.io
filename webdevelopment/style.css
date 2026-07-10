@@ -128,4 +128,7 @@ video {
     color: #000000;
 
   }    
+  img, video {
+    display: none;
+  }
 }
