@@ -120,5 +120,12 @@ video {
 }
 
 @media print {
+  @page {
+    margin: 1in;
+  }
+  h1, p, ul, .widgetbox {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
 
+  }    
 }
