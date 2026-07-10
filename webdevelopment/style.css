@@ -133,6 +133,6 @@ video {
   .flyer
   .imgbox
   .videoplayer {
-    display: none;
+    display: none !important;
   }
 }
