@@ -84,3 +84,20 @@ ul {
 .references p:nth-child(even) {
   text-indent: 50px;
 }
+
+footer {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 5px;
+  background-image: url('skyline.jpg');
+  height: 150px;
+}
+
+.widgetbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-top: 50px;
+}
+
