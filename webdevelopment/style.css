@@ -123,16 +123,22 @@ video {
   @page {
     margin: 1in;
   }
-  h1, p, ul, .widgetbox {
+  h1, p, .people, .widgetbox {
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
   }    
+  .widgetbox {
+    border: none;
+  }
   img, 
   video,
-  .nav
-  .flyer
-  .imgbox
-  .videoplayer {
+  .nav,
+  .flyer,
+  .imgbox,
+  .videoplayer,
+  ul {
     display: none !important;
   }
+
+  
 }
