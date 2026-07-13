@@ -139,6 +139,19 @@ video {
   ul {
     display: none !important;
   }
-
-  
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 5px;
+  width: fit-content;
+}
+
+#message {
+  height: 100px;
+}
+
