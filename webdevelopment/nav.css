@@ -12,7 +12,8 @@
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
+  z-index: 9999;
 }
 
 .dlinks {
