@@ -59,7 +59,9 @@ ul {
 @media screen and (max-width: 768px) {
   .bar {
     display: none;
-    overflow: visible;
+  }
+  .dropdown {
+    display: none;
   }
   .burger {
     display: block;
