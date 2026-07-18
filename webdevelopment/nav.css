@@ -47,3 +47,21 @@ ul {
   border: 3px solid black;
   border-color: #0F204B;
 }
+
+.burger {
+  display: none;
+  width: fit-content;
+  border: 1px solid black;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .bar {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+
+} 
