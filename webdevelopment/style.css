@@ -27,7 +27,7 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: #FFB612;
+  color: #000000;
 }
 
 .hero {
@@ -49,7 +49,7 @@ hr {
 
 p {
   color: #000000;
-  font-size: 18px;
+  font-size: 24px;
   padding: 2px;
   font-family: 'Lato', sans-serif;
 }
@@ -181,3 +181,88 @@ form {
   height: fit-content;
   margin-top: 150px;
 }
+
+#bottomgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+#bottomgrid img {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #0F204B;
+}
+
+.left {
+  position: relative;
+  display: inline-block;
+}
+
+.middle {
+  position: relative;
+  display: inline-block;
+}
+
+.right {
+  position: relative;
+  display: inline-block;
+}
+
+.btnl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  height: 50px;
+}
+
+.btnm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  height: 50px;
+}
+
+.btnr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  height: 50px;
+}
+
+.fbox {
+  display: flex;
+  margin: 15px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tl, .tr {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+.tr {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #FFB612;
+}
+
+.tl {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: fit-content;
+}
+
