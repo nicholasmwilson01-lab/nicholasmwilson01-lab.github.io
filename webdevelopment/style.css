@@ -181,6 +181,10 @@ form {
   margin-top: 150px;
 }
 
+.staffbox h2 {
+  color: #FFB612;
+}
+
 #bottomgrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
