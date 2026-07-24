@@ -27,7 +27,7 @@ button {
   padding: 10px 20px;
 }
 
-/* Custom font from Google Fonts applied to site */
+/* Custom styles for all <h1> elements */
 h1 {
   color: #0F204B;
   font-size: 36px;
@@ -35,7 +35,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Custom font from Google Fonts applied to site */
+/* Custom styles for all <h2> elements */
 h2 {
   font-size: 24px;
   font-family: 'Montserrat', sans-serif;
