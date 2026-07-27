@@ -20,6 +20,9 @@ blockquote {
 
 li a {
   color: #FFB612;
+  padding: 10px;
+  margin: 15px;
+  text-decoration: none;
 }
 
 /* Custom font from Google Fonts applied to site */
