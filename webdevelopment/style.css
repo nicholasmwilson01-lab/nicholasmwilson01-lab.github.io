@@ -7,7 +7,7 @@ a {
   font-family: 'Lato', sans-serif;
 }
 
-a:hover {
+nav a:hover {
   background-color:#0F204B;
   color: #FFB612;
 }
@@ -24,11 +24,6 @@ li a {
   margin: 15px;
   text-decoration: none;
   font-size: 24px;
-}
-
-ul {
-  margin: 10px;
-  padding: 15px;
 }
 
 /* Custom font from Google Fonts applied to site */
@@ -67,7 +62,7 @@ hr {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: none;
   font-size: 18px;
   color: black;
   border: 2px solid black;
@@ -77,10 +72,6 @@ ul {
   width: auto;
   background-color: #0F204B;
   text-decoration: none;
-}
-
-li {
-  color: #FFB612;
 }
 
 footer {
