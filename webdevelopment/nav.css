@@ -81,7 +81,7 @@ nav ul li:hover {
   background-color: #0F204B;
   top: 100%;
   border: 2px solid #FFB612;
-  z-index: 2;
+  z-index: 1;
 }
 
 .dlinks a {
