@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="nav.css">
     -->
 
+    <!--Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 
@@ -29,31 +30,31 @@
 <!--Header for logo/title-->
 <header>
     <!--Nav Bar, styled in nav.css-->
-    <nav class="bar">
+    <div id="logo"><img src="https://nicholasmwilson01-lab.github.io./webdevelopment/logoresized.PNG" alt="main logo" height="100px" width="100px"></div>
+    <nav>
         <ul>
-            <img src="https://nicholasmwilson01-lab.github.io./webdevelopment/logoresized.PNG" alt="Main Logo">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="project.html">Services</a></li>
             <li><a href="resources.html">Resources</a></li>
             <li><a href="contact.html">Contact</a>
-                <!--Drop down styled in nav.css-->
-                <ul class="dropdown">
+                <div class="dropdown">
+                    <button class="downbtn">
+                        <i class="down"></i>
+                    </button>
                     <div class="dlinks">
-                        <li><a href="contact.html">Donation</a></li>
-                        <br>
-                        <li><a href="contact.html">Inquiry</a></li>
+                            <a href="contact.html">Donation</a>
+                            <a href="contact.html">Inquiry</a>           
                     </div>
-                </ul>
-            </li>
-                
         </ul>
     </nav>
     <div class="burger">
-        <button type="button">
+        <button>
             <img src="https://nicholasmwilson01-lab.github.io./webdevelopment/burger.svg" alt="hamburger" width="50" height="50">
         </button>
+        </nav>
     </div>
+
 </header>
 
 
@@ -66,10 +67,10 @@
         <img src="https://nicholasmwilson01-lab.github.io./webdevelopment/Anchorage.jpg" alt="Anchorage Panorama" class="imgbox" height="600px" width="1100px">
         <ul class="staffbox">
             <h2>Archive Staff</h2>
-            <li>Name:</li>
-            <li>Position:</li>
-            <li>Specialty:</li>
-            <li>Contact:</li>
+            <li>Name: Bob</li>
+            <li>Position: Head Archivist</li>
+            <li>Specialty: Anchorage History</li>
+            <li>Contact: XXX-XXX-XXXX</li>
         </ul>
     </div>
     <hr>
@@ -96,9 +97,7 @@
         </ul>
         <div class="videoplayer">
             <video controls>
-                <!--
-                <source src="https://nicholasmwilson01-lab.github.io./webdevelopment/WilsonResume.mp4" type="video/mp4">Your browser does not support this video.
-            -->
+                <source src="https://nicholasmwilson01-lab.github.io./webdevelopment/businessvid.mp4" type="video/mp4">Your browser does not support this video.
             </video>
         </div>
     </div>

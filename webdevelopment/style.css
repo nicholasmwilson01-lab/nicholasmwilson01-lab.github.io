@@ -12,6 +12,12 @@ a:hover {
   color: #FFB612;
 }
 
+blockquote {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
 /* Custom font from Google Fonts applied to site */
 p {
   color: #000000;
@@ -65,6 +71,7 @@ footer {
   margin: 5px;
   background-image: url('skyline.jpg');
   height: 150px;
+  width: auto;
 }
 
 .widgetbox {
@@ -243,6 +250,13 @@ form {
   height: 100px;
 }
 
+@media screen and (max-width: 692px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 /* CONTENT PAGE CSS*/
 #bottomgrid {
@@ -331,6 +345,38 @@ form {
 
 .homebtn {
   place-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .fbox, #bottomgrid {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .fbox img {
+    height: 800px;
+    width: 600px;
+  }
+
+  .tl {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .fbox, #bottomgrid {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .fbox img {
+    height: 600px;
+    width: 400px;
+  }
+
+  .tl {
+    width: 50%;
+  }
 }
 
 /* RESOURCES PAGE CSS*/
