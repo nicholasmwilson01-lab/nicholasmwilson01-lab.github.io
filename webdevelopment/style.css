@@ -208,6 +208,10 @@ video {
   align-items: center;
 }
 
+.staffbox li, .servicesbox li  {
+  color: #FFB612;
+}
+
 .infobox {
   border: 2px solid black;
   border-radius: 20px;
