@@ -63,6 +63,11 @@ ul {
   padding-left: 40px;
   width: auto;
   background-color: #0F204B;
+  text-decoration: none;
+}
+
+li {
+  color: #FFB612;
 }
 
 footer {
