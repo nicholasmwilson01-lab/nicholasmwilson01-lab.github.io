@@ -78,9 +78,8 @@ nav ul li:hover {
 .dlinks {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: #0F204B;
   top: 100%;
-  color: #0F204B;
 }
 
 .dlinks a {
