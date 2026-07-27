@@ -74,6 +74,10 @@ ul {
   text-decoration: none;
 }
 
+li {
+  padding-bottom: 15px;
+}
+
 footer {
   border: 2px solid black;
   padding: 20px;
