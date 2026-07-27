@@ -3,8 +3,9 @@ a {
   color: #0F204B;
   font-size: solid 24px;
   text-decoration: none;
-  padding: 2px;
+  padding: 5px;
   font-family: 'Lato', sans-serif;
+  margin: 15px;
 }
 
 nav + a:hover {
@@ -196,7 +197,6 @@ video {
   border: 2px solid black;
   border-radius: 20px;
   color: #FFB612;
-  margin-bottom: 10px;
 }
 
 .staffbox h2, .servicesbox h2 {
