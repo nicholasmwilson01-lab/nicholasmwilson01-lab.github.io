@@ -195,6 +195,7 @@ video {
   margin-top: 150px;
   border: 2px solid black;
   border-radius: 20px;
+  color: #FFB612;
 }
 
 .staffbox h2, .servicesbox h2 {
@@ -206,9 +207,6 @@ video {
   grid-template-columns: 1fr 2fr;
   width: 100%;
   align-items: center;
-}
-
-.staffbox li, .servicesbox li  {
   color: #FFB612;
 }
 
