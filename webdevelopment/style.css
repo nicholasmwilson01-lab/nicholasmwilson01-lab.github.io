@@ -7,7 +7,7 @@ a {
   font-family: 'Lato', sans-serif;
 }
 
-nav a:hover {
+nav + a:hover {
   background-color:#0F204B;
   color: #FFB612;
 }
