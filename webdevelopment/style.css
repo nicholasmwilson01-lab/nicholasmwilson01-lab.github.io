@@ -408,6 +408,10 @@ form {
   text-indent: 50px;
 }
 
+.resources {
+  width: fit-content;
+}
+
 /* Custom styles for all <h2> elements */
 .resources h2 {
   text-decoration: underline;

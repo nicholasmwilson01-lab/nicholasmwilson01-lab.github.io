@@ -93,6 +93,7 @@ nav ul li:hover {
 .dropdown:hover .dlinks {
   display: flex;
   flex-direction: column;
+  color: #0F204B;
 }
 
 @media screen and (max-width: 800px) {
