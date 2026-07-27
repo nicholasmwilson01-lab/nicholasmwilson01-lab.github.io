@@ -72,10 +72,9 @@ ul {
   width: auto;
   background-color: #0F204B;
   text-decoration: none;
-}
-
-li {
-  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 footer {
