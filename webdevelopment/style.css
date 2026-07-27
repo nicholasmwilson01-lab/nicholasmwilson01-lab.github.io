@@ -72,9 +72,6 @@ ul {
   width: auto;
   background-color: #0F204B;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
 }
 
 footer {
