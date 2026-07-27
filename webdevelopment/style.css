@@ -196,6 +196,7 @@ video {
   border: 2px solid black;
   border-radius: 20px;
   color: #FFB612;
+  margin-bottom: 10px;
 }
 
 .staffbox h2, .servicesbox h2 {
@@ -214,6 +215,8 @@ video {
   border: 2px solid black;
   border-radius: 20px;
   height: fit-content;
+  color: #FFB612;
+  margin-bottom: 10px;
 }
 
 @media print {
