@@ -1,0 +1,478 @@
+/* GENERAL CSS */
+a {
+  color: #0F204B;
+  font-size: solid 24px;
+  text-decoration: none;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  margin: 15px;
+}
+
+nav + a:hover {
+  background-color:#0F204B;
+  color: #FFB612;
+}
+
+blockquote {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+li a {
+  color: #FFB612;
+  padding: 10px;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Custom font from Google Fonts applied to site */
+p {
+  color: #000000;
+  font-size: 24px;
+  padding: 2px;
+  font-family: 'Lato', sans-serif;
+}
+
+button {
+  border: 4px solid;
+  border-color: #0F204B;
+  background-color: #FFB612;
+  padding: 10px 20px;
+}
+
+/* Custom styles for all <h1> elements */
+h1 {
+  color: #0F204B;
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom styles for all <h2> elements */
+h2 {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  background-color: #0F204B;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  color: black;
+  border: 2px solid black;
+  margin: 50px;
+  padding-right: 0px;
+  padding-left: 40px;
+  width: auto;
+  background-color: #0F204B;
+  text-decoration: none;
+}
+
+footer {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 5px;
+  background-image: url('skyline.jpg');
+  height: 150px;
+  width: auto;
+}
+
+.widgetbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+.widgetbox img:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+.widgetbox p {
+  font-size: 18px;
+}
+
+/* HOME PAGE CSS */
+.hero {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 400px;
+  background-image: url("heroimgfinal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero p {
+  font-size: 28px;
+  margin: 20px;
+}
+
+.quote {
+  display: grid;
+  place-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 800px;
+  height: fit-content;
+}
+
+/* ABOUT PAGE CSS */
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+  gap: 0;
+}
+
+.middlegrid {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  width: 100%;
+  gap: 0;
+}
+
+.flyer {
+  width: 250px;
+  height: 40px;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 5px;
+  background-color: #FFB612;
+  border-radius: 20px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.flyer a {
+  font-size: 24px;
+}
+
+.imgbox {
+  border: 2px solid #FFB612;
+  border-radius: 20px;
+  background-color: #FFB612;
+}
+
+.videoplayer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 1000px;
+  height: 500px;
+}
+
+.textbox {
+  max-width: 1200px;
+  margin: 20px;
+}
+
+.staffbox {
+  width: 250px;
+  height: fit-content;
+  margin-top: 150px;
+  border: 2px solid black;
+  border-radius: 20px;
+  color: #FFB612;
+}
+
+.staffbox h2, .servicesbox h2 {
+  color: #FFB612;
+}
+
+.servicesbox {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  align-items: center;
+  color: #FFB612;
+}
+
+.infobox {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: fit-content;
+  color: #FFB612;
+  margin-bottom: 10px;
+}
+
+@media print {
+  @page {
+    margin: 1in;
+  }
+  h1, p, .people, .widgetbox {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+  }    
+  .widgetbox {
+    border: none;
+  }
+  img, 
+  video,
+  .nav,
+  .flyer,
+  .imgbox,
+  .videoplayer,
+  ul {
+    display: none !important;
+  }
+}
+
+
+/* CONTACT PAGE CSS*/
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+form {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 5px;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+}
+
+#message {
+  height: 100px;
+}
+
+@media screen and (max-width: 692px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/* CONTENT PAGE CSS*/
+#bottomgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+#bottomgrid img {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #0F204B;
+}
+
+.left {
+  position: relative;
+  display: inline-block;
+}
+
+.middle {
+  position: relative;
+  display: inline-block;
+}
+
+.right {
+  position: relative;
+  display: inline-block;
+}
+
+.btnl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  height: 50px;
+}
+
+.btnm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  height: 50px;
+}
+
+.btnr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  height: 50px;
+}
+
+.fbox {
+  display: flex;
+  margin: 15px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tl, .tr {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+.tr {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #FFB612;
+}
+
+.tl {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+.homebtn {
+  place-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .fbox, #bottomgrid {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .fbox img {
+    height: 800px;
+    width: 600px;
+  }
+
+  .tl {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .fbox, #bottomgrid {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .fbox img {
+    height: 600px;
+    width: 400px;
+  }
+
+  .tl {
+    width: 50%;
+  }
+}
+
+/* RESOURCES PAGE CSS*/
+.references {
+  padding: 15px;
+  margin: 5px;
+}
+
+.references::first-letter {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.references p:nth-child(even) {
+  text-indent: 50px;
+}
+
+.resources {
+  width: fit-content;
+}
+
+/* Custom styles for all <h2> elements */
+.resources h2 {
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+/* Custom styles for all <h1> elements */
+.resourcewrapper h1 {
+  letter-spacing: 2px;
+  text-shadow: 1px 1px #FFB612;
+}
+
+tr:nth-child(odd) {
+  background-color: #FFB612;
+}
+
+table {
+  border: 2px solid black;
+  line-height: 1.5;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 10px;
+  padding: 15px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+tr {
+  border-bottom: 2px solid black;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: white;
+
+}
+
+.thead {
+  background-color: white;
+}
+
+.resources ul {
+  border-radius: 20px;
+}
+
+caption {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    width: 50%;
+  }
+} 
+
+@media screen and (max-width: 400px) {
+  table {
+    width: 25%;
+  }
+} 

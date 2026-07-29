@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+  Name: Nick
+  Date: 5/21/26
+  Course: 7355
+  Description: Web Dev About Page
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!--CSS style sheet link-->
+    <link rel="stylesheet" type="text/css" href="https://nicholasmwilson01-lab.github.io/webdevelopment/style.css">
+    <link rel="stylesheet" type="text/css" href="https://nicholasmwilson01-lab.github.io/webdevelopment/nav.css">
+
+    <!--
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    -->
+
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+</head>
+
+<?php include 'header.php'; ?>
+
+<!--Body for majority of text-->
+<body>
+    <h1>About the Archives</h1>
+    <div class="grid">
+        <img src="https://nicholasmwilson01-lab.github.io./webdevelopment/Anchorage.jpg" alt="Anchorage Panorama" class="imgbox" height="600px" width="1100px">
+        <ul class="staffbox">
+            <h2>Archive Staff</h2>
+            <li>Name: Bob</li>
+            <li>Position: Head Archivist</li>
+            <li>Specialty: Anchorage History</li>
+            <li>Contact: XXX-XXX-XXXX</li>
+            <br>
+        </ul>
+    </div>
+    <hr>
+    <div class="middlegrid">
+        <p class="textbox">The Anchorage Herald has served the Anchorage community for over a century as the second largest newspaper
+        in the metro area, as well as one of the most popular periodicals throughout Alaska. With a rich history dating
+        back to the early 1900s, the Herald currently serves users both online via their dedicated website and through
+        traditional print newspapers. The Herald Archives aim to preserve this rich history as well as enable access to
+        those interested in the background of the newspaper and those involved in its conception.
+        </p>
+        <div class="flyer">
+            <a href="https://nicholasmwilson01-lab.github.io/webdevelopment/Herald.pdf">Promotional Flyer</a>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="servicesbox">
+        <ul class="infobox">
+                <h2>Guest Amenities</h2>
+                <li>Database Access</li>
+                <li>Digitization</li>
+                <li>Publication</li>
+                <li>Reproduction</li>
+                <br>
+        </ul>
+        <div class="videoplayer">
+            <video controls>
+                <source src="https://nicholasmwilson01-lab.github.io./webdevelopment/businessvid.mp4" type="video/mp4">Your browser does not support this video.
+            </video>
+        </div>
+    </div>
+    <br>
+</body>
+
+<!--Footer for widgets/links-->
+<?php include 'footer.php'; ?>
